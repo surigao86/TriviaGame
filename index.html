@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+</head>
+<body>
+
+    <div class="header-wrap">
+        <h1>San Francisco Giants Trivia!</h1>
+    </div>
+    <div class="timer">
+        <h2>Time Remaining: </h2>
+    </div>
+    <div class="questions">
+        <!--Make up quetions here need five questions -->
+        <h2>Who did the giants beat for the 2010 world series?</h2>
+        <!-- The name should match for questions in a group -->
+        <input type="radio" name="world-series" id="rangers" value="Texas Rangers">
+        <label for="rangers">Texas Rangers</label>
+        <input type="radio" name="world-series" id="la-dodgers" value="LA Dodgers">
+        <label for="la-dodgers">LA Dodgers</label>
+        <input type="radio" name="world-series" id="ny-yankees" value="NY Yankees">
+        <label for="ny-yankees">NY Yankees</label>
+        <input type="radio" name="world-series" id="boston-red-sox" value="Boston Red Sox">
+        <label for="boston-red-sox">Boston Red Sox</label>
+        <!-- Second question -->
+        <h2>Who was the starting pitcher for the SF Giants?</h2>
+        <!--same concept as the first question. -->
+        <input type="radio" name="world-series" id="timlincecum" value="Tim Lincecum">
+        <label for="timlincecum">Tim Lincecum</label>
+        <input type="radio" name="world-series" id="mattcain" value="Matt Cain">
+        <label for="mattcain">Matt Cain</label>
+        <input type="radio" name="world-series" id="jonathansanchez" value="Jonathan Sanchez">
+        <label for="jonathansanchez">Jonathan Sanchez</label>
+        <input type="radio" name="world-series" id="madisonbumgarner" value="Madison Bumgarner">
+        <label for="madisonbumgarner">Madison Bumgarner</label>
+        <!--Third question-->
+        <h2>What was the SF Giants final score for the winning game?</h2>
+        <!--same concept as ll the other questions-->
+        <input type="radio" name="world-series" id="three" value="3">
+        <label for="three">3</label>
+        <input type="radio" name="world-series" id="nine" value="9">
+        <label for="nine">9</label>
+        <input type="radio" name="world-series" id="four" value="4">
+        <label for="four">4</label>
+        <input type="radio" name="world-series" id="seven" value="7">
+        <label for="seven">7</label> 
+        <!--Fourth Question-->
+        <h2>Who won the NLCS MVP?</h2>
+        <!-- create button to submit answers -->
+        <div class="button">
+            <button type="submit">submit</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
